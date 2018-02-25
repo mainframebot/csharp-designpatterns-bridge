@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{3CA4AD9B-278A-4B22-B1C6-4898C138206F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0608F6C6-C4F8-4CA6-A99A-BDDFB32E4914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternLesson", "BridgePatternLesson\BridgePatternLesson.csproj", "{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternTests", "BridgePatternTests\BridgePatternTests.csproj", "{E238E33F-BDED-443A-81C4-8DF78B8D7DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E238E33F-BDED-443A-81C4-8DF78B8D7DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E238E33F-BDED-443A-81C4-8DF78B8D7DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E238E33F-BDED-443A-81C4-8DF78B8D7DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E238E33F-BDED-443A-81C4-8DF78B8D7DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21D06B84-EC9C-4AAF-8828-C3AEBB6C409A} = {3CA4AD9B-278A-4B22-B1C6-4898C138206F}
+		{E238E33F-BDED-443A-81C4-8DF78B8D7DBA} = {0608F6C6-C4F8-4CA6-A99A-BDDFB32E4914}
+	EndGlobalSection
+EndGlobal
